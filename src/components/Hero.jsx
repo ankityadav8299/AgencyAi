@@ -12,6 +12,7 @@ const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.7 }}
         viewport={{ once: true }}
+        
         className="inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full"
       >
         <img className="w-20" src={assets.group_profile} alt="" />
@@ -54,7 +55,7 @@ const Hero = () => {
         transition={{ duration: 0.6, delay: 0.2 }}
         viewport={{ once: true }}
 
-        
+
         className="relative"
       >
         <img src={assets.hero_img} alt="" className="w-full max-w-6xl" />
